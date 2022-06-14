@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Blood Bank:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Blood Bank</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BloodBank-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Blood Bank:war exploded" />
+    </root>
+  </artifact>
+</component>
